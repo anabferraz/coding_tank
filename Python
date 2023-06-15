@@ -1,0 +1,89 @@
+Funções comuns
+
+var = 15
+
+type(var)
+
+tipo = type(var)
+
+print(tipo)
+
+
+Principais tipos de variáveis
+
+var=10
+print(type(var))
+
+var=3.14
+print(type(var))
+
+var="isto é um texto"
+print(type(var))
+
+var="10"
+print(type(var))
+
+print(var * 2)
+
+var_true = True
+
+var_true == 1
+
+var_true == 0
+
+var = None
+
+type(var)
+
+# lembrar de colocar True e False com a primeira letra maiúscula
+# tuple = sequencia de numeros com restrições de modificação, ordenada e imutável.
+# não existe double no Python
+
+a*b (multiplicação)
+
+a/b (divisão)
+
+5**2 (potencialização)
+
+3%2 (divisão residual)
+
+# num = num + 2
+num += 2
+
+
+função input e conversões de tipo
+
+print("Qualquer coisa")
+
+type("Qualquer coisa")
+
+retorno = input("Digite um número")
+print(retorno)
+type(retorno)
+int(retorno)
+type(retorno)
+
+
+Exercícios sobre variáveis, tipos, entradas e Operações
+
+1. Crie um programa que receba seu nome e te dê boas vindas!
+
+nome = input("Digite o seu nome:")
+print (f'Boas vindas {nome}!')
+
+2. Crie um cadastro que receba o nome, telefone e retorne-os em tela ao final da execução.
+
+nome = input("Digite o seu nome:")
+telefone = input("Digite o seu telefone:")
+print(f'Cadastro realizado! \nSeu nome é {nome} e seu telefone é {telefone}')
+
+3. Crie um programa que receba altura, peso e retorne o IMC.
+
+altura = float(input("Digite a sua altura em centímetros:"))
+peso = float(input("Digite o seu peso em quilogramas:"))
+imc = peso / (altura**2)
+
+4. Construa um programa que receba uma idade e um nome e imprima uma saída do tipo: "Adriele tem 22 anos".
+
+5. Construa um programa que receba uma idade e um nome e imprima uma saída do tipo: "Adriele tem 22 anos". No entanto, desta vez considere 
+a idade que o usuário terá daqui 15 anos, e não a idade que o usuário tem no momento da execução do programa.
